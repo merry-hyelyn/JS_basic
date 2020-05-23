@@ -16,6 +16,7 @@ function getWeather(lat, lng) {
             weather.innerText = `${temperature} @ ${place}`
         })
 }
+
 function saveCoords(coordsObj) {
     localStorage.setItem(COORDS, JSON.stringify(coordsObj))
 }

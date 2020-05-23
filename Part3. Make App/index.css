@@ -5,8 +5,9 @@ body {
     cursor: pointer;
 }
 
-body {
-    color: #34495e;
+p {
+    font-size: 100px;
+    color: #2c3e50;
 }
 
 .clicked {
@@ -39,4 +40,25 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+}
+
+.toDo_button {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.information {
+    position: absolute;
+    left: 1400px;
+    top: 115px;
+    font-size: 20px;
+}
+
+input {
+    background: none;
+    appearance: none;
+    border: 0;
+    font-size: 22px;
+    color: #2c3e50;
+    border-bottom: 3px solid black;
 }

@@ -20,3 +20,4 @@ init()
 // setInterval(function, seconds)
 // function 호출 시 function() X -> function
 // function() -> function 즉시 호출, setInterval보다 먼저 실행
+
